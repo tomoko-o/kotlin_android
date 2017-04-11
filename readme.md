@@ -5,7 +5,9 @@ Kotlin で Androidアプリを作れるようになるための簡単なサン�
 
 ## HelloApp
 最初はやっぱりHelloWorld
+
 <https://www.usaco-pg.com/2017/04/11/kotlin-android-helloworld/>
 
 AndroidStudioでKotlinを扱う設定方法やプロジェクトの作り方などを解説しています。
+
 Kotlinでのプログラミングも少しだけ触れています。
