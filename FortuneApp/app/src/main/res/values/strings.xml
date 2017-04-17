@@ -1,0 +1,7 @@
+<resources>
+    <!--<string name="app_name">FortuneApp</string>-->
+    <string name="app_name">おみくじアプリ</string>
+    <string name="title_text">あなたの運勢は？</string>
+    <string name="button_text">占う</string>
+    <string name="default_text">---</string>
+</resources>
