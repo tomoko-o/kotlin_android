@@ -17,18 +17,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        Log.d("onCreate", "*********")
     }
-
-    override fun onResume() {
-        super.onResume()
-//        editText.setText("")
-        editText.setText(resources.getText(R.string.blank_text))
-    }
-
+    
     fun changeActivity(view: View) {
         val text = editText.text?.toString()
         if (text == null || text == "") {
-//            Log.d("changeActivity", "no text")
             AlertDialog.Builder(this)
 //                    .setTitle("Error")
                     .setTitle(resources.getText(R.string.alert_title))

@@ -20,3 +20,11 @@ Kotlinでのプログラミングも少しだけ触れています。
 <https://www.usaco-pg.com/2017/04/17/kotlin-android-fortuneapp/>
 
 簡単なアプリですが、乱数の生成方法や文字列や文字色の変更方法などを解説しています。
+
+
+## IntentSample
+画面遷移をしてみよう
+
+<https://www.usaco-pg.com/2017/05/01/kotlin-android-intent/>
+
+Intentを使った画面遷移の仕方や元の画面への戻り方、画面遷移時のデータの受け渡し、アラートダイアログの使い方などを解説しています。

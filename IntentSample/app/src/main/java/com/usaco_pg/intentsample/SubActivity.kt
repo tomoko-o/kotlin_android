@@ -12,10 +12,9 @@ class SubActivity : AppCompatActivity() {
 
         val text = intent.getStringExtra(MainActivity.EXTRA_TEXT)
         if (text != null) {
-            subText.text = text
+            textView.text = text
         } else {
-            subText.text = "Not Extra Data"
+            textView.text = "Not Extra Data"
         }
-
     }
 }
