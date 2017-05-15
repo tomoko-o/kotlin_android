@@ -28,3 +28,12 @@ Kotlinでのプログラミングも少しだけ触れています。
 <https://www.usaco-pg.com/2017/05/01/kotlin-android-intent/>
 
 Intentを使った画面遷移の仕方や元の画面への戻り方、画面遷移時のデータの受け渡し、アラートダイアログの使い方などを解説しています。
+
+## SimpleListView
+ListViewを使ってみよう
+
+<https://www.usaco-pg.com/2017/05/01/kotlin-android-simple-listview/>
+
+ListViewの最もシンプルな使い方について解説しています。
+レイアウトはAndroid標準の一番シンプルなアイテム1つだけのものを使い、データを表示します。
+それからアイテムをクリックする、ということまでやってみます。
