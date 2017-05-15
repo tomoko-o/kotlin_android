@@ -32,7 +32,7 @@ Intentを使った画面遷移の仕方や元の画面への戻り方、画面�
 ## SimpleListView
 ListViewを使ってみよう
 
-<https://www.usaco-pg.com/2017/05/01/kotlin-android-simple-listview/>
+<https://www.usaco-pg.com/2017/05/15/kotlin-de-android-simple-listview/>
 
 ListViewの最もシンプルな使い方について解説しています。
 レイアウトはAndroid標準の一番シンプルなアイテム1つだけのものを使い、データを表示します。
