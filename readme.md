@@ -13,6 +13,13 @@ AndroidStudioでKotlinを扱う設定方法やプロジェクトの作り方な�
 
 Kotlinでのプログラミングも少しだけ触れています。
 
+## KotlinApp
+Kotlin が Androidの公式開発言語になったので、AndroidStudio3.0 Previewで試してみた
+
+<https://www.usaco-pg.com/2017/05/18/kotlin-android-androidstudio30-preview/>
+
+タイトルのまんまです。
+AndroidStudio3.0(Preview)でKotlinのプロジェクトを作成する手順をまとめました。
 
 ## FortuneApp
 おみくじアプリを作ってみよう
