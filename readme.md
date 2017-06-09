@@ -44,3 +44,12 @@ ListViewを使ってみよう
 ListViewの最もシンプルな使い方について解説しています。
 レイアウトはAndroid標準の一番シンプルなアイテム1つだけのものを使い、データを表示します。
 それからアイテムをクリックする、ということまでやってみます。
+Toastの使い方も見ていきます。
+
+## SimpleListView2
+ListViewで2つのテキストを表示してみよう
+
+<https://www.usaco-pg.com/2017/06/09/kotlin-android-listview-2/>
+
+ListViewで2つのテキストを表示する方法について解説しています。
+前回はArrayAdapterを使いましたが、今回はSimpleAdapterの使い方について見ていきます。
