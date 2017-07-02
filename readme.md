@@ -53,3 +53,11 @@ ListViewで2つのテキストを表示してみよう
 
 ListViewで2つのテキストを表示する方法について解説しています。
 前回はArrayAdapterを使いましたが、今回はSimpleAdapterの使い方について見ていきます。
+
+## CustomListView
+オリジナルなListViewを作ってみよう
+
+<https://www.usaco-pg.com/2017/07/02/kotlin-android-custom-listview/>
+
+独自レイアウトのListViewの作り方について解説しています。
+前回までは標準のAdapterを使っていましたが、独自Adapterの作り方についても見ていきます。
