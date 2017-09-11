@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.usaco_pg.optionsmenusample.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <!--<item-->
+        <!--android:id="@+id/action_add"-->
+        <!--android:orderInCategory="101"-->
+        <!--android:title="@string/action_add"-->
+        <!--app:showAsAction="never" />-->
+    <item
+        android:id="@+id/action_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="101"
+        android:title="@string/action_add"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="102"
+        android:title="@string/action_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="never|withText" />
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="103"
+        android:title="@string/action_save"
+        android:icon="@android:drawable/ic_menu_save"
+        app:showAsAction="never" />
+</menu>
