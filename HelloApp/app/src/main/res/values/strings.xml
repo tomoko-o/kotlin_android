@@ -2,4 +2,6 @@
     <string name="app_name">HelloApp</string>
     <string name="hello_text">Hello world!</string>
     <string name="change_button">change</string>
+    <string name="time_text">---</string>
+    <string name="button_text">Change</string>
 </resources>
