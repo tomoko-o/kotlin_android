@@ -1,6 +1,7 @@
 # Kotlin で Android アプリ開発
 
 Kotlin で Androidアプリを作れるようになるための簡単なサンプル集です。
+
 ホームページのデータが飛んでしまって、いま復旧中です…(汗)
 
 各サンプルアプリの詳しい解説はブログの方でしているので合わせてご覧ください。
@@ -14,7 +15,7 @@ AndroidStudioでKotlinを扱う設定方法やプロジェクトの作り方な�
 
 Kotlinでのプログラミングも少しだけ触れています。
 
-## KotlinApp
+## KotlinApp (ブロク記事未復旧)
 Kotlin が Androidの公式開発言語になったので、AndroidStudio3.0 Previewで試してみた
 
 <https://www.usaco-pg.com/2017/05/18/kotlin-android-androidstudio30-preview/>
@@ -22,7 +23,7 @@ Kotlin が Androidの公式開発言語になったので、AndroidStudio3.0 Pre
 タイトルのまんまです。
 AndroidStudio3.0(Preview)でKotlinのプロジェクトを作成する手順をまとめました。
 
-## FortuneApp
+## FortuneApp (ブロク記事未復旧)
 おみくじアプリを作ってみよう
 
 <https://www.usaco-pg.com/2017/04/17/kotlin-android-fortuneapp/>
@@ -30,14 +31,14 @@ AndroidStudio3.0(Preview)でKotlinのプロジェクトを作成する手順を�
 簡単なアプリですが、乱数の生成方法や文字列や文字色の変更方法などを解説しています。
 
 
-## IntentSample
+## IntentSample (ブロク記事未復旧)
 画面遷移をしてみよう
 
 <https://www.usaco-pg.com/2017/05/01/kotlin-android-intent/>
 
 Intentを使った画面遷移の仕方や元の画面への戻り方、画面遷移時のデータの受け渡し、アラートダイアログの使い方などを解説しています。
 
-## SimpleListView
+## SimpleListView (ブロク記事未復旧)
 ListViewを使ってみよう
 
 <https://www.usaco-pg.com/2017/05/15/kotlin-de-android-simple-listview/>
@@ -47,7 +48,7 @@ ListViewの最もシンプルな使い方について解説しています。
 それからアイテムをクリックする、ということまでやってみます。
 Toastの使い方も見ていきます。
 
-## SimpleListView2
+## SimpleListView2 (ブロク記事未復旧)
 ListViewで2つのテキストを表示してみよう
 
 <https://www.usaco-pg.com/2017/06/09/kotlin-android-listview-2/>
@@ -55,7 +56,7 @@ ListViewで2つのテキストを表示してみよう
 ListViewで2つのテキストを表示する方法について解説しています。
 前回はArrayAdapterを使いましたが、今回はSimpleAdapterの使い方について見ていきます。
 
-## CustomListView
+## CustomListView (ブロク記事未復旧)
 オリジナルなListViewを作ってみよう
 
 <https://www.usaco-pg.com/2017/07/02/kotlin-android-custom-listview/>
@@ -63,7 +64,7 @@ ListViewで2つのテキストを表示する方法について解説してい�
 独自レイアウトのListViewの作り方について解説しています。
 前回までは標準のAdapterを使っていましたが、独自Adapterの作り方についても見ていきます。
 
-## OptionsMenuSample
+## OptionsMenuSample (ブロク記事未復旧)
 オプションメニューを使ってみよう
 
 ActionBarの右側に表示されるオプションメニューの使い方について見ていきます。
