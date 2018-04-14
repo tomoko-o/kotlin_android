@@ -36,7 +36,7 @@ AndroidStudio3.0(Preview)でKotlinのプロジェクトを作成する手順を�
 
 <https://www.usaco-pg.com/2017/05/01/kotlin-android-intent/>
 
-Intentを使った画面遷移の仕方や元の画面への戻り方、画面遷移時のデータの受け渡し、アラートダイアログの使い方などを解説しています。
+Intentを使った画面遷移の仕方や元の画面への戻り方、画面遷移時のデータの受け渡し、TextEditのエラーメッセージの使い方などを解説しています。
 
 ## SimpleListView (ブロク記事未復旧)
 ListViewを使ってみよう

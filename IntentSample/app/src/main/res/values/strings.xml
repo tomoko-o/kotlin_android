@@ -1,9 +1,3 @@
 <resources>
     <string name="app_name">IntentSample</string>
-    <string name="hint_text">テキストを入力してください</string>
-    <string name="button_text">click</string>
-    <string name="sub_view_text">SubView</string>
-    <string name="alert_title">Error</string>
-    <string name="alert_button">OK</string>
-    <string name="blank_text"></string>
 </resources>
