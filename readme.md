@@ -23,14 +23,6 @@ Kotlin が Androidの公式開発言語になったので、AndroidStudio3.0 Pre
 タイトルのまんまです。
 AndroidStudio3.0(Preview)でKotlinのプロジェクトを作成する手順をまとめました。
 
-## FortuneApp (ブロク記事未復旧)
-おみくじアプリを作ってみよう
-
-<https://www.usaco-pg.com/2017/04/17/kotlin-android-fortuneapp/>
-
-簡単なアプリですが、乱数の生成方法や文字列や文字色の変更方法などを解説しています。
-
-
 ## IntentSample
 画面遷移をしてみよう
 
@@ -38,7 +30,7 @@ AndroidStudio3.0(Preview)でKotlinのプロジェクトを作成する手順を�
 
 Intentを使った画面遷移の仕方や元の画面への戻り方、画面遷移時のデータの受け渡し、TextEditのエラーメッセージの使い方などを解説しています。
 
-## SimpleListView (ブロク記事未復旧)
+## SimpleListView 
 ListViewを使ってみよう
 
 <https://www.usaco-pg.com/2017/05/15/kotlin-de-android-simple-listview/>
