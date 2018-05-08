@@ -15,13 +15,6 @@ AndroidStudioでKotlinを扱う設定方法やプロジェクトの作り方な�
 
 Kotlinでのプログラミングも少しだけ触れています。
 
-## KotlinApp (ブロク記事未復旧)
-Kotlin が Androidの公式開発言語になったので、AndroidStudio3.0 Previewで試してみた
-
-<https://www.usaco-pg.com/2017/05/18/kotlin-android-androidstudio30-preview/>
-
-タイトルのまんまです。
-AndroidStudio3.0(Preview)でKotlinのプロジェクトを作成する手順をまとめました。
 
 ## IntentSample
 画面遷移をしてみよう
@@ -30,7 +23,7 @@ AndroidStudio3.0(Preview)でKotlinのプロジェクトを作成する手順を�
 
 Intentを使った画面遷移の仕方や元の画面への戻り方、画面遷移時のデータの受け渡し、TextEditのエラーメッセージの使い方などを解説しています。
 
-## SimpleListView 
+## SimpleListView
 ListViewを使ってみよう
 
 <https://www.usaco-pg.com/2017/05/15/kotlin-de-android-simple-listview/>
@@ -40,7 +33,7 @@ ListViewの最もシンプルな使い方について解説しています。
 それからアイテムをクリックする、ということまでやってみます。
 Toastの使い方も見ていきます。
 
-## SimpleListView2 (ブロク記事未復旧)
+## SimpleListView2  
 ListViewで2つのテキストを表示してみよう
 
 <https://www.usaco-pg.com/2017/06/09/kotlin-android-listview-2/>
