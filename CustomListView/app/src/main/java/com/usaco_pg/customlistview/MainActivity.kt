@@ -7,11 +7,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
-import android.widget.ImageView
-import android.widget.ListAdapter
-import android.widget.TextView
+import android.widget.*
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.list_item.view.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,7 +23,7 @@ class MainActivity : AppCompatActivity() {
                 "ネモフィラ",
                 "バラ",
                 "ふじ")
-        val contents = listOf(
+        val descriptions = listOf(
                 "アジサイ（紫陽花、学名 Hydrangea macrophylla）は、アジサイ科アジサイ属の落葉低木の一種である。広義には「アジサイ」の名はアジサイ属植物の一部の総称でもある。",
                 "ハス（蓮、学名：Nelumbo nucifera）は、インド原産のハス科多年性水生植物。",
                 "ネモフィラはムラサキ科ネモフィラ属（Nemophila）に分類される植物の総称。または、ルリカラクサ（瑠璃唐草、学名：Nemophila menziesii）のこと。",
@@ -38,48 +36,45 @@ class MainActivity : AppCompatActivity() {
                 R.drawable.rose,
                 R.drawable.wisteria)
 
-        val flowers = mutableListOf<FlowerData>()
-        for (i in 0..names.count()-1) {
-            flowers.add(FlowerData(names[i], contents[i], images[i]))
+        val flowers = List(names.size) { i -> FlowerData(names[i], descriptions[i], images[i])}
+        val adapter = FlowerListAdapter(this, flowers)
+        myListView.adapter = adapter
+
+        myListView.setOnItemClickListener { adapterView, view, position, id ->
+            val name = view.findViewById<TextView>(R.id.nameTextView).text
+            Toast.makeText(this, "clicked: $name", Toast.LENGTH_LONG).show()
         }
-
-        val adapter = FlowerAdapter(this, flowers)
-        myListView.adapter = adapter as ListAdapter
-
     }
 
-    data class ViewHolder(val nameTextView: TextView, val contentTextView: TextView, val profileImageView: ImageView)
-    class FlowerAdapter(context: Context, flowers: List<FlowerData>) : ArrayAdapter<FlowerData>(context, 0, flowers) {
+    data class FlowerData(val name: String, val desc: String, val imageId: Int)
 
-        val layoutInflater: LayoutInflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+    data class ViewHolder(val nameTextView: TextView, val descTextView: TextView, val flowerImgView: ImageView)
+
+    class FlowerListAdapter(context: Context, flowers: List<FlowerData>) : ArrayAdapter<FlowerData>(context, 0, flowers) {
+        private val layoutInflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
 
         override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
             var view = convertView
             var holder: ViewHolder
 
             if (view == null) {
-                view = layoutInflater.inflate(R.layout.listview_item, parent, false)
+                view = layoutInflater.inflate(R.layout.list_item, parent, false)
                 holder = ViewHolder(
-                        view?.findViewById(R.id.nameTextView) as TextView,
-                        view?.findViewById(R.id.contentTextView) as TextView,
-                        view?.findViewById(R.id.profileImgView) as ImageView
+                        view?.nameTextView!!,
+                        view.descTextView,
+                        view.flowerImgView
                 )
-                view?.tag = holder
+                view.tag = holder
             } else {
-                holder = view?.tag as ViewHolder
+                holder = view.tag as ViewHolder
             }
 
             val flower = getItem(position) as FlowerData
-//            (view?.findViewById(R.id.nameTextView) as TextView).text = flower.name
-//            (view?.findViewById(R.id.contentTextView) as TextView).text = flower.content
-//            (view?.findViewById(R.id.profileImgView) as ImageView).setImageBitmap(BitmapFactory.decodeResource(context.resources, flower.imageId))
             holder.nameTextView.text = flower.name
-            holder.contentTextView.text = flower.content
-            holder.profileImageView.setImageBitmap(BitmapFactory.decodeResource(context.resources, flower.imageId))
+            holder.descTextView.text = flower.desc
+            holder.flowerImgView.setImageBitmap(BitmapFactory.decodeResource(context.resources, flower.imageId))
 
-            return view!!
+            return view
         }
     }
-
-
 }
