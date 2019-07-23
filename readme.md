@@ -49,7 +49,7 @@ ListViewで2つのテキストを表示する方法について解説してい�
 独自レイアウトのListViewの作り方について解説しています。
 前回までは標準のAdapterを使っていましたが、独自Adapterの作り方についても見ていきます。
 
-## OptionsMenuSample (ブロク記事未復旧)
+## OptionsMenuSample 
 オプションメニューを使ってみよう
 
 ActionBarの右側に表示されるオプションメニューの使い方について見ていきます。
