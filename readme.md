@@ -55,3 +55,11 @@ ListViewで2つのテキストを表示する方法について解説してい�
 ActionBarの右側に表示されるオプションメニューの使い方について見ていきます。
 
 <https://www.usaco-pg.com/2017/09/11/kotlin-android-optionsmenu/>
+
+
+## RecyclerViewApp 
+RecyclerViewでリストを表示してみよう
+
+RecyclerViewを使った最もシンプルなリストの作り方について解説しています。
+
+<https://www.usaco-pg.com/2017/09/11/kotlin-android-optionsmenu/>
