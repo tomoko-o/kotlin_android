@@ -1,10 +1,12 @@
 package com.usaco_pg.recyclerviewapp
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -18,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         val items = Array(20) { i -> "item-$i" }
 
         val viewManager = LinearLayoutManager(this)
-        val viewAdapter = MyAdapter(items)
+        val viewAdapter = MyAdapter(this, items)
         val dividerItemDecoration = DividerItemDecoration(this, LinearLayoutManager(this).orientation)
 
         myRecyclerView.apply {
@@ -30,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    class MyAdapter(private val items: Array<String>) : RecyclerView.Adapter<MyAdapter.ViewHolder>() {
+    class MyAdapter(private val context: Context, private val items: Array<String>) : RecyclerView.Adapter<MyAdapter.ViewHolder>() {
         class ViewHolder(val textView: TextView) : RecyclerView.ViewHolder(textView)
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -40,6 +42,10 @@ class MainActivity : AppCompatActivity() {
 
         override fun onBindViewHolder(holder: ViewHolder, position: Int) {
             holder.textView.text = items[position]
+
+            holder.textView.setOnClickListener {
+                Toast.makeText(context, "Clicked ${items[position]}", Toast.LENGTH_LONG).show()
+            }
         }
 
 //        override fun getItemCount(): Int {
