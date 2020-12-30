@@ -60,6 +60,13 @@ ActionBarの右側に表示されるオプションメニューの使い方に�
 ## RecyclerViewApp 
 RecyclerViewでリストを表示してみよう
 
+<https://www.usaco-pg.com/2017/09/11/kotlin-android-optionsmenu/>
+
 RecyclerViewを使った最もシンプルなリストの作り方について解説しています。
 
-<https://www.usaco-pg.com/2017/09/11/kotlin-android-optionsmenu/>
+## RecyclerViewApp2 
+RecyclerViewで2行表示するリスト表示してみよう
+
+<https://www.usaco-pg.com/2020/12/30/kotlin-de-android-recyclerview2/>
+
+RecyclerViewで2つのテキストを表示する方法について解説しています。
