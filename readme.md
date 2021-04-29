@@ -70,3 +70,10 @@ RecyclerViewで2行表示するリスト表示してみよう
 <https://www.usaco-pg.com/2020/12/30/kotlin-de-android-recyclerview2/>
 
 RecyclerViewで2つのテキストを表示する方法について解説しています。
+
+## ViewBindingApp
+ViewBinding ビューバインディングを使ってみよう
+
+<https://www.usaco-pg.com/2021/04/29/kotlin-android-viewbinding/>
+
+findViewByIdやKotlin Android Extensionsの後継となるViewBinding ビューバインディングの使い方について解説しています。
